@@ -15,3 +15,4 @@ public interface MenuMapper {
     List<RoleMenu> getAllMenus();
 
 }
+

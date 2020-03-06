@@ -18,6 +18,7 @@ import java.util.Collection;
  * @author zhoudb
  * @date 2019/12/23 16:59
  */
+
 @Component
 public class CustomAccessDecisionManager implements AccessDecisionManager {
 

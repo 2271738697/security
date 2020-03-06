@@ -18,6 +18,7 @@ import org.springframework.security.web.access.intercept.FilterSecurityIntercept
  * @author zhoudb
  * @date 2019/12/23 16:59
  */
+
 @Configuration
 public class MyWebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired

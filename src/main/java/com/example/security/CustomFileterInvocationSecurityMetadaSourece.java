@@ -19,6 +19,7 @@ import java.util.List;
  * @author zhoudb
  * @date 2019/12/23 16:59
  */
+
 @Component
 public class CustomFileterInvocationSecurityMetadaSourece implements FilterInvocationSecurityMetadataSource {
     AntPathMatcher antPathMatcher = new AntPathMatcher();

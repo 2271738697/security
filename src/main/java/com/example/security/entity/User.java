@@ -23,6 +23,7 @@ public class User implements UserDetails {
     private Boolean locked;
     private List<Role> roles;
 
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         List<SimpleGrantedAuthority> authorities = new ArrayList<>();
